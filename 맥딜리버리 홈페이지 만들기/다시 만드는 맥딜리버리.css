@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+body > .fullScreen > .Screen-up {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 0 11.6rem;
+}
+
+.fullScreen > .Screen-up > .top-menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu-container > .top-menu-container-toggle > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.top-menu-container > .top-menu-container-toggle > .fr > li{
+    margin-right: 1rem;
+}
+
+.top-menu-container > .top-menu-container-toggle > ul > li a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-menu-container > .top-menu-container-toggle > .se > li{
+    margin-left: 1rem;
+}
+
+.main-menu-bar > .main-menu-bar-nav{
+    background-color: #3d3d3d;
+}
+
+.main-menu-bar > .main-menu-bar-nav > ul {
+    display: flex;
+    align-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.main-menu-bar > .main-menu-bar-nav > ul > .logo{
+    background-color: white;
+    padding: 7px 25px;
+}
+.main-menu-bar > .main-menu-bar-nav > ul > .item{
+    padding: 7px 25px;
+}
+.main-menu-bar > .main-menu-bar-nav > ul > .item>img{
+    padding-right: 15px;
+}
+
+.main-menu-bar > .main-menu-bar-nav > ul > li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/*  로그인 관려 화면 */
+.main-img-login> .main-img{
+    position: relative;
+    z-index: 2;
+}
+
+.main-img-login > .login-system {
+    background-color: rgba(255, 255, 255, 95%);
+}
+
+.main-img-login > .login-system > .login-choice > ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-img-login > .login-system > .login-choice > ul > li a {
+    text-decoration: none;
+    color: black;
+    text-underline: blue;
+}
+.main-img-login > from > .login-system-box{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+}
+
+/* 여기서 부터 하기 */
+.main-img-login > from > .login-system{
+}
+
+.main-img-login > from > .login-system > .title{
+    align-items: center;
+
+}
+
+
+
+body > .fullScreen > .Screen-nuder {
+    display: flex;
+    background-color: #3d3c3c;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column > div > ul {
+    list-style: none;
+    /* 아이콘과 글 연결은 물어보기 */
+}
+
+.column > div > ul > li.main-item {
+    color: white;
+}
+
+.column > div > ul > .item > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.column > div > ul > li.item > a:hover {
+    color: #b2b1b1;
+}
+
+.column > div > ul > li > label > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.column > div > ul > li > label > a:hover {
+    color: #b2b1b1;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 0 11.6rem;
+}
+
+
+
+/*  맥딜리버리 이용 방법 큰 사진 */
+
+
+/*  밑의 메뉴, 기타정보 , 팔로우  */
+.Screen-nuder {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 11.6rem;
+    height: 28rem;
+}
+
+
+.Screen-nuder > .column {
+    height: 22rem;
+
+
+}
+
+.Screen-nuder > .column > .column-container {
+    height: 100%;
+}
+
+.Screen-nuder > .column > .column-container > .column-main {
+    margin-right: 10rem;
+}
+
+.Screen-nuder > .column > .column-container > .column-main > .main-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Screen-nuder > .column > .column-container > .column-main > .item {
+    margin-bottom: 1rem;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Screen-nuder > .column > .column-container > .column-main > .item > label > * {
+    height: 100%;
+}
+
+
+
+
